@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "dairy",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "entryDate",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
